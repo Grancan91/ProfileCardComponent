@@ -1,4 +1,17 @@
+:root{
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
 body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,18 +83,20 @@ body{
 h2 {
     margin: 2px;
     padding: 0px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
 }
 
 b {
     color: hsl(0, 0%, 59%);
+    font-weight: 400;
 }
 
 p {
     color: hsl(0, 0%, 59%);
     padding: 4px;
     margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
 }
 .card-footer{
     display: flex;
