@@ -73,17 +73,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 16vh;
+    height: 18vh;
     border: 2px solid hsla(0, 0%, 59%, 0.212);
 }
 
 .card-body > h2 {
-    padding-top: 24px;
+    padding-top: 38px;
 }
 h2 {
     margin: 2px;
     padding: 0px;
     font-size: 18px;
+}
+
+h3{
+    color: hsl(0, 0%, 59%);
+    padding: 4px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 b {
